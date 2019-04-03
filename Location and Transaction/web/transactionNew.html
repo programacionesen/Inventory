@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>New Transaction</h1>
+        <br><br>
+        //id, quantity, date, type, idwarehouseproduct
+        <form id="myform" name="myform" action="TransactionServlet" method="get">
+            <label> Quantity: </label>
+            <input type="number" id="quantity" name="quantity"/>
+            <br><br>
+            
+            <label> Date: </label>
+            <input type="text" id="date" name="date" />
+            <br><br>
+            
+            <label> Type: </label>
+            <input type="text" id="type" name="type" />
+            <br><br>
+            
+            <label> IdWarehouseproduct: </label>
+            <input type="number" id="IdWarehouseproduct" name="IdWarehouseproduct"/>
+            <br><br>
+            <input type="submit" id="mysubmit" name="mysubmit" value="Send"/>
+            <input type="hidden" id="formid" name="formid" value="1" />
+        </form>
+    </body>
+</html>

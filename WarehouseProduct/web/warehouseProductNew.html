@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Warehouse Product</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+              content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>New Warehouse Product</h1>
+        <br><br>
+        
+        <form id="myform" name="myform" action="WarehouseProductServlet" method="get">
+            <label>Stock:</label><br>
+            <input type="number" id="stock" name="stock" />
+            <br><br>
+            
+            <label>Id Product:</label><br>
+            <input type="number" id="idproduct" name="idproduct" />
+            <br><br>
+            
+            <label>Id Warehouse:</label><br>
+            <input type="number" id="idwarehouse" name="idwarehouse" />
+            <br><br>
+            
+            <input type="submit" id="mysubmit" name="mysubmit" value="Create"/>
+            <input type="hidden" id="formid" name="formid" value="1" />
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,149 @@
+/* BASIC SETUP*/
+*{
+    margin: 0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23555555' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    
+}
+h1{
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 100%;
+}
+.row{
+    max-width:1140px;
+    margin:0 auto 0 auto;
+    
+/*BARRA DE OPCIONES*/
+  
+}
+.main-nav{
+    float: none;
+    list-style: none;
+    margin-top: 55px;
+    
+}
+.main-nav li{
+    display:inline-block;
+    margin-left: 80px;
+    margin-right:50px;
+
+
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 10px 10px;
+    color: #555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+        border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s
+
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #080808;
+}
+
+/*TABLA*/
+
+i{
+    font-size: 125%;
+    
+    width: 15px;
+    text-align: center;
+    color: #555;
+    font-size: 125%;
+    /*Tecnincas para alinear los iconos con el texto*/
+    line-height: 120%;
+    vertical-align: middle;
+     margin-top: -4px;
+    margin-right: 0px;
+    padding-left: 8px;
+    
+    
+    }
+body tr:nth-child(odd) {
+  background-color: rgb(210, 219, 247);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+
+
+table{
+    margin-top: 35px;
+    background-color: rgba(85, 85, 85, 0.67);
+    color: black;
+    font-weight:300;
+    text-align: center;
+    
+    
+}
+th{
+
+    background-color: antiquewhite;
+    
+}
+tr{
+    height: 30;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+       
+
+}
+
+ table tr:hover{
+    
+    -webkit-transform: scale(1.02);
+    
+    transform: scale(1.02);
+    outline: black 2px solid; /*para darle borde a las filas*/
+    
+}
+/* MODIFICANDO BOTONES DE LAS TABLAS*/
+.btn-opc{
+   
+    text-decoration: none;
+     font-size: 125%;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+<! DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" type="text/css" href="resources/css/normalize.css">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/style-form.css">
+    
+</head>
+<body>
+ 
+  <h1>FORMULARIO VENTA</h1>
+    <div class="row">
+    <form  name="venta1" action=""  method="">
+        
+        <input id=categoria type="text" placeholder="Nombre del cliente" required>
+        <br><br>
+        
+        
+         <input list="producto" name="producto" placeholder="Seleccionar producto" required >
+  <datalist id="producto">
+    <option value="producto1">
+    <option value="producto2">
+    <option value="producto3">
+    <option value="producto4">
+  </datalist>
+        <br><br>
+         
+
+          
+        <input id="cantidad-compra" name="cantidad-compra"type="number" placeholder=" Cantidad" required>
+        <br><br>
+        <input type="date"  value="theDate" id="theDate" disabled />
+        
+        <br><br>
+        
+        <input class="btn-submit" id=myform type='submit' value="AGREGAR">
+        
+    
+    
+    
+    </form>
+    </div>
+    
+    <a class="back" href="Inventario.html">Regresar</a>
+    
+</body>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/scripts-forms.js"></script>
+        <script src="js/jquery.validate.js"></script>
+</html>
