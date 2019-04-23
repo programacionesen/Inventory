@@ -1,0 +1,39 @@
+package inventory.objects;
+
+public class WarehouseViewObj {
+    
+    private int m_iId;
+    private String m_strName;
+    private String m_strStore;
+
+    public WarehouseViewObj(int p_iId, String p_strName, String p_strStore) {
+        setId(p_iId);
+        setName(p_strName);
+        setStore(p_strStore);
+    }
+
+    public int getId() {
+        return m_iId;
+    }
+
+    private void setId(int p_iId) {
+        m_iId = p_iId;
+    }
+
+    public String getName() {
+        return m_strName;
+    }
+
+    private void setName(String p_strName) {
+        m_strName = p_strName;
+    }
+
+    public String getStore() {
+        return m_strStore;
+    }
+
+    private void setStore(String p_strStore) {
+        m_strStore = p_strStore;
+    }
+    
+}

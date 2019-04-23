@@ -1,0 +1,37 @@
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="resources/css/normalize.css">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/style-form.css">
+    
+    
+    
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png">
+        <link rel="manifest" href="resources/favicon/site.webmanifest">
+        <link rel="mask-icon" href="resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">  
+        <title>Add New Category</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>New Category</h1>
+       
+        <div class="row">
+        <form id="myform" name="myform" action="CategoryServlet" method="get">
+            <label>Name:</label><br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            
+            <input  type="submit" id="mysubmir" name="mysubmit" value="Create">
+            <input  type="hidden" id="formid" name="formid" value="1">
+        </form>
+        
+       </div>
+        <a class="back" href="CategoryServlet?formid=2">Back</a>
+        
+    </body>
+</html>
